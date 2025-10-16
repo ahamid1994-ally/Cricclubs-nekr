@@ -1,0 +1,33 @@
+<!DOCTYPE html>  <html lang="en">    <head>    
+  <meta charset="UTF-8">    
+  <title>CricClubs Scoreboard - Full Width Bottom</title>    
+  <style>    
+    html, body {    
+      margin: 0;    
+      padding: 0;    
+      background: transparent;    
+      overflow: hidden;    
+      width: 100vw;    
+      height: 100vh;    
+      position: relative;    
+    }    
+    iframe {    
+      width: 100vw;    
+      height: 130px; /* Adjust height if needed */    
+      position: absolute;    
+      bottom: 0;    
+      left: 0;    
+      border: none;    
+      transform: scale(1);    
+      transform-origin: bottom left;    
+    }    
+  </style>    
+</head>    
+<body>    
+  <iframe    
+    src="https://cricclubs.com/live/CricClubsLive.do?matchId=962&clubId=1109170"    
+    sandbox="allow-scripts allow-same-origin"    
+    allowfullscreen    
+  ></iframe>    
+</body>    
+</html>
